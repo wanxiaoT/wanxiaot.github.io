@@ -3,6 +3,13 @@
 <head>
     <title>wanxiaoT</title>
     <meta charset="UTF-8">
+    <style>
+p
+{
+	color:red;
+	text-align:center;
+} 
+</style>
 </head>
 <body>
         <img src="/tupian/warning.svg" alt=""><br />
@@ -31,7 +38,7 @@
 src="//music.163.com/outchain/player?type=2&id=1876939087&auto=1&height=66"></iframe>
 <br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
 src="//music.163.com/outchain/player?type=2&id=1404469236&auto=1&height=66"></iframe>
-        此项目为开源项目，由wanxiaoT万小T独立完成
+        此项目为开源项目，由wanxiaoT独立完成
     <br><a href="https://github.com/wanxiaoT/wanxiaoT.github.io">开源仓库（现有窗口打开）</a>
     <br><a href="https://github.com/wanxiaoT/wanxiaoT.github.io">开源仓库（新窗口打开）</a>
 <span id="span"></span>
@@ -49,7 +56,6 @@ src="//music.163.com/outchain/player?type=2&id=1404469236&auto=1&height=66"></if
         c = (b-B)*60;
         C = Math.floor((b-B)*60);
         D = Math.floor((c-C)*60);
-        //信息写入到DIV中
         span.innerHTML = "本站wanxiaoT.github.io勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
     }
     setInterval(runtime, 1000);
